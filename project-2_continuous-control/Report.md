@@ -28,7 +28,9 @@ The following visualizations were made with `NN-visualization.ipynb`.
 ![actor](img/actor-nn.svg)
 
 #### Critic
+
 Actions are included from the second hidden layer.
+
 ![critic](img/critic-nn.svg)
 
 ### Tricks
