@@ -1,0 +1,2 @@
+unityagents==0.4.0
+torch==1.1.0
