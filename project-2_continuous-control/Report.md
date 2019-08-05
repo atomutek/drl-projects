@@ -75,8 +75,7 @@ The agent learns for a maximum of `1000` timesteps per episode.
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 ## Rewards
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
-A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
+In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. 
 
 
 ### Solving condition
