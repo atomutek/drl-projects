@@ -32,10 +32,12 @@ Following the DDPG paper, the neural network depicted below consists of:
 The following visualizations were made with `NN-visualization.ipynb`  
 
 #### Actor
+
 ![actor](img/actor-nn.png)
 
 #### Critic
 Actions are included from the second hidden layer.
+
 ![critic](img/critic-nn.png)
 
 ### Tricks
@@ -73,7 +75,7 @@ In this environment, two agents control rackets to bounce a ball over a net. If 
 ### Solving condition
 To solve this environment, the agent needs to receive an average reward (over 100 episodes) of at least +0.5.
 
-### DQN reward curve
+### DDPG reward curve
 ![rewards](img/rewards-682.png)
 
 The environment was solved in __682__ episodes.
